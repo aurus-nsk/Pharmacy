@@ -1,0 +1,16 @@
+<div id="header" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:fn="http://java.sun.com/jsp/jstl/functions" xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+	<spring:message var="dateFormatPattern" code="date_format_locale"/>
+	<input id="date_format_locale" type='hidden' value="${dateFormatPattern}"></input>
+
+	<div class="jumbotron">
+  		<h1><spring:message code="global_appname"/></h1>
+  		<span class="pull-right">  
+  			<spring:message code="global_language"/>
+  			<c:out value=": "/> 
+  			<util:language label="English" locale="en"/>
+  			<util:language label="Russian" locale="ru"/>
+  		</span>
+	</div>
+</div>
