@@ -12,17 +12,17 @@ Spring 3, Hibernate, MySQL, Tomcat7, Maven, jQuery, Bootstrap.
 
 	CREATE SCHEMA 'Pharmacy' DEFAULT CHARACTER SET utf8 ;
 
--Change credentials:(default - user:root, pswd:root):
+-Change credentials in property file:
 
 	/Pharmacy/src/main/resources/META-INF/spring/database.properties
 
--Path to upload files from users($uploadRelativePath):
+-Change or check the path to upload folder where will store files from users in property file:
 
 	/Pharmacy/src/main/resources/META-INF/spring/database.properties
 
--Check if the path exist, if doesn't - create it.
+-Check if the upload folder exist or not. If it doesn't exist - create it on a file system.
 
-The default folder "upload" in the root of application:
+The default upload folder locates in the root of application:
 
 	...\tomcat7\webapps\Pharmacy-1\upload\
 
