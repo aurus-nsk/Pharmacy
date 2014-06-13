@@ -2,6 +2,10 @@
 
 This is the project where user can fill out the form with file. After submition the form, user can "publish" the Letter that he/she added.
 
+####Screenshots
+
+![Alt text] (https://raw.github.com/aurus-nsk/Pharmacy/screenshots/images/screen.gif)
+
 ####Technologies in use: 
 
 Spring 3, Hibernate, MySQL, Tomcat7, Maven, jQuery, Bootstrap.
@@ -16,7 +20,7 @@ Spring 3, Hibernate, MySQL, Tomcat7, Maven, jQuery, Bootstrap.
 
 	/Pharmacy/src/main/resources/META-INF/spring/database.properties
 
--Change or check the path to upload folder where will store files from users in property file:
+-Change or check the path to upload folder where will store user's files in property file:
 
 	/Pharmacy/src/main/resources/META-INF/spring/database.properties
 
