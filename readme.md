@@ -1,6 +1,21 @@
 ####Description:
 
-This is the project where user can fill out the form with file. After submition the form, user can "publish" the Letter that he/she added.
+This is the one page application. User can add Letter and publish it simultaneously or later. All Letters listed at the bottom of the page. 
+Letter have the following fields:
+1.Number(required)
+2.Date(required)
+3.Subject(required)
+4."Published"(optional)
+5.JPG/PDF scan(required)
+6.Note(optional)
+
+User can publish the Letter later after submitting the form by clicking the button 'Publish' (AJAX request).
+
+There are validator in the form in case of user enter incorrect values.
+
+Also, application have internationalization(i18n) of all messages and localization(l10n) of dates format.
+
+Uploaded files save on file system and DataBase(MySQL) save only the file name.:
 
 ####Screenshots
 
