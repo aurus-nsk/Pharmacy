@@ -18,9 +18,9 @@ Letter have the following fields:
 
 User can publish the Letter later after submitting the form by clicking the button 'Publish' (AJAX request).
 
-There are validator in the form in case of user enter incorrect values.
+There are the validator in the form in case of user enter incorrect values.
 
-Also, application have internationalization(i18n) of all messages and localization(l10n) of dates format.
+Also, this application have internationalization(i18n) of all messages and localization(l10n) of dates format.
 
 Uploaded files save on file system and DataBase(MySQL) save only the file name.:
 
