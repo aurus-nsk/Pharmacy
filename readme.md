@@ -1,12 +1,19 @@
 ####Description:
 
 This is the one page application. User can add Letter and publish it simultaneously or later. All Letters listed at the bottom of the page. 
+
 Letter have the following fields:
+
 1.Number(required)
+
 2.Date(required)
+
 3.Subject(required)
+
 4."Published"(optional)
+
 5.JPG/PDF scan(required)
+
 6.Note(optional)
 
 User can publish the Letter later after submitting the form by clicking the button 'Publish' (AJAX request).
