@@ -19,3 +19,4 @@ test mock --entity ~.web.LetterController
 hint
 test mock --entity ~.domain.Letter
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-06-11 15:33:11
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-06-13 13:47:04

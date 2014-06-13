@@ -16,7 +16,7 @@ Spring 3, Hibernate, MySQL, Tomcat7, Maven, jQuery, Bootstrap.
 
 	/Pharmacy/src/main/resources/META-INF/spring/database.properties
 
--Change or check the path to upload folder where will store files from users in property file:
+-Change or check the path to upload folder where will store user's files in property file:
 
 	/Pharmacy/src/main/resources/META-INF/spring/database.properties
 
